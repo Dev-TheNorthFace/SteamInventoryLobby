@@ -1,0 +1,20 @@
+{
+	"name": "Steam Inventory Lobby",
+	"description": "Ce script permet sur le jeu payday 2 de voir votre inventaire steam dans votre lobby",
+	"author": "North",
+	"contact": "discord : .thenorthface",
+	"version": "1.0.0",
+	"blt_version" : 2,
+	"updates" : [
+    {
+        "revision" : 4,
+        "identifier" : "SIIL"
+    }
+    ],
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "menumanager.lua"
+		}
+	]
+}
